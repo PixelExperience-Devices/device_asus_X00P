@@ -453,18 +453,6 @@
         <item>30</item>
     </integer-array>
 
-    <!-- Default list of files pinned by the Pinner Service -->
-    <string-array name="config_defaultPinnerServiceFiles">
-        <item>/system/framework/arm64/boot-framework.oat</item>
-        <item>/system/framework/boot-framework.vdex</item>
-        <item>/system/framework/oat/arm64/services.odex</item>
-        <item>/system/framework/oat/arm64/services.vdex</item>
-        <item>/system/framework/arm64/boot.oat</item>
-        <item>/system/framework/boot.vdex</item>
-        <item>/system/framework/arm64/boot-core-libart.oat</item>
-        <item>/system/framework/boot-core-libart.vdex</item>
-    </string-array>
-
     <!-- Values for GPS configuration -->
     <string-array name="config_gpsParameters">
         <item>SUPL_HOST=supl.google.com</item>
@@ -587,4 +575,17 @@
          manually by the user. Off by default, since the expected haptic feedback may not be
          available on some devices. -->
     <bool name="config_enableHapticTextHandle">true</bool>
+
+    <!-- Default list of files pinned by the Pinner Service -->
+    <string-array translatable="false" name="config_defaultPinnerServiceFiles">
+        <item>"/system/framework/arm64/boot-framework.oat"</item>
+        <item>"/system/framework/boot-framework.vdex"</item>
+        <item>"/system/framework/oat/arm64/services.odex"</item>
+        <item>"/system/framework/oat/arm64/services.vdex"</item>
+        <item>"/system/framework/arm64/boot.oat"</item>
+        <item>"/system/framework/boot.vdex"</item>
+        <item>"/system/framework/arm64/boot-core-libart.oat"</item>
+        <item>"/system/framework/boot-core-libart.vdex"</item>
+    </string-array>
+    
 </resources>
