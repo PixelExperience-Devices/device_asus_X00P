@@ -96,6 +96,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.egl.hw=1 \
     debug.gralloc.enable_fb_ubwc=1 \
     debug.sf.enable_hwc_vds=1 \
+    debug.sdm.support_writeback=0 \
     vendor.gralloc.enable_fb_ubwc=1 \
     debug.sf.hw=1 \
     debug.sf.latch_unsignaled=1 \
