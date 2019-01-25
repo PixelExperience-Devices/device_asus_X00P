@@ -155,3 +155,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.interface=wlan0
+
+# Disable oem unlock
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.oem_unlock_supported=false
+
+# CheckJNI
+PRODUCT_PROPERTY_OVERRIDES += \
+    debug.checkjni=1
