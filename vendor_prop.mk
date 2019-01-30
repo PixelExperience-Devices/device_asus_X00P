@@ -75,6 +75,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=320 \
     vendor.display.enable_default_color_mode=1
 
+# Disable touch heatmap
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.input.video_enabled=false
+
 # Enforce privapp-permissions whitelist
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.control_privapp_permissions=enforce
