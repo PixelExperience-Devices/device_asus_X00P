@@ -131,6 +131,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Media
 PRODUCT_PROPERTY_OVERRIDES += \
+    debug.media.codec2=2 \
     mm.enable.qcom_parser=4176895 \
     media.stagefright.audio.sink=280 \
     vendor.vidc.disable.split.mode=1 \
