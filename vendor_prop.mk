@@ -58,6 +58,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.qualcomm.bt.hci_transport=smd \
     persist.bluetooth.bluetooth_audio_hal.disabled=true
 
+# Boot
+PRODUCT_PROPERTY_OVERRIDES += \
+sys.vendor.shutdown.waittime=500
+
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.display.umax=1920x1080 \
