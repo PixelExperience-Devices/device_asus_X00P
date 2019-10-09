@@ -93,6 +93,7 @@ TARGET_ENABLE_MEDIADRM_64 := true
 
 # Encryption
 TARGET_HW_DISK_ENCRYPTION := true
+TARGET_CRYPTFS_HW_PATH ?= vendor/qcom/opensource/cryptfs_hw
 
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
