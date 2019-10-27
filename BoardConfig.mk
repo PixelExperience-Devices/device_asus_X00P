@@ -198,6 +198,7 @@ WIFI_DRIVER_FW_PATH_AP := "ap"
 WIFI_DRIVER_FW_PATH_STA := "sta"
 WIFI_HIDL_FEATURE_DISABLE_AP_MAC_RANDOMIZATION := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
+QC_WIFI_HIDL_FEATURE_DUAL_AP := true
 
 # Inherit the common proprietary files
 -include vendor/asus/X00P/BoardConfigVendor.mk
