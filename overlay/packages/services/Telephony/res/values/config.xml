@@ -14,12 +14,17 @@
      limitations under the License.
 -->
 
+<!-- Phone app resources that may need to be customized
+     for different hardware or product builds. -->
 <resources>
     <!-- Allow handover from telephony calls to another ConnectionService. -->
     <bool name="config_support_handover_from">true</bool>
 
     <!-- Flag indicating whether the device supports RTT (real-time text) -->
     <bool name="config_support_rtt">true</bool>
+
+    <!-- After a CDMA conference call is merged, the swap button should be displayed. -->
+    <bool name="support_swap_after_merge" translatable="false">false</bool>
 
     <!-- String indicating the package name of the device ImsService implementation for MMTEL. -->
     <string name="config_ims_mmtel_package" translatable="false">org.codeaurora.ims</string>
