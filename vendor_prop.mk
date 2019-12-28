@@ -169,6 +169,20 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.sys.fw.trim_cache_percent=100 \
     ro.vendor.qti.sys.fw.trim_enable_memory=2147483648
 
+# Set lmkd options
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.lmk.low=1001 \
+    ro.lmk.medium=0 \
+    ro.lmk.critical=800 \
+    ro.lmk.critical_upgrade=false \
+    ro.lmk.upgrade_pressure=100 \
+    ro.lmk.downgrade_pressure=100 \
+    ro.lmk.kill_heaviest_task=true \
+    ro.lmk.kill_timeout_ms=15 \
+    ro.lmk.use_minfree_levels=true \
+    ro.lmk.enhance_batch_kill=true \
+    ro.lmk.vmpressure_file_min=80640
+
 # Usb
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config.extra=none
