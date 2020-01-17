@@ -1,21 +1,24 @@
-# Common device configuration for ASUS MSM8937
+# Device Configuration For Asus Zenfone Max M1
 
-## Copyright
+## Spec Sheet
 
-```
-#
-# Copyright (C) 2016 The CyanogenMod Project
-# Copyright (C) 2017 The LineageOS Project
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-#
+| Feature                 | Specification                     |
+| :---------------------- | :-------------------------------- |
+| CPU                     | Octa-core 1.4 GHz Cortex-A53      |
+| Chipset                 | Qualcomm MSM8937 Snapdragon 430   |
+| GPU                     | Adreno 505                        |
+| Memory                  | 3 GB                            |
+| Shipped Android Version | 8.0.0                             |
+| Storage                 | 32 GB                          |
+| MicroSD                 | Up to 256 GB                      |
+| Battery                 | 4000 mAh (non-removable)          |
+| Dimensions              | 147.3 x 70.9 x 8.7 mm             |
+| Display                 | 720 x 1440 pixels, 5.45" IPS LCD   |
+| Rear Camera             | 13 MP, LED flash                  |
+| Front Camera            | 8 MP , LED flash                              |
+| Release Date            | October 2018                         |
+
+## Device Picture
+
+![Zenfone Max M1](https://www.asus.com/media/IN/products/Av2HDWl1WLs1j7bm/P_setting_xxx_0_90_end_300.png "Zenfone Max M1")
+
