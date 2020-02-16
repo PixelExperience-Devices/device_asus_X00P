@@ -35,6 +35,9 @@ persist.vendor.qcom.bluetooth.enable.splita2dp=false
 ro.vendor.bluetooth.wipower=false
 vendor.qcom.bluetooth.soc=pronto
 
+# Camera
+persist.vendor.camera.expose.aux=1
+
 # Codec2 switch
 debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
