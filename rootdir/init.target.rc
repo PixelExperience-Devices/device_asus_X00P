@@ -45,11 +45,35 @@ on fs
     mkdir /mnt/vendor/persist/time 0770 system system
     restorecon_recursive /mnt/vendor/persist
 
+on init
+    #add by microarray start
+    chmod 0666 /dev/madev0
+    chown system system /dev/madev0
+    #add by microarray end
+
+    #add for leadcore fingerprint start
+    chmod 0660 /dev/fpsensor
+    chown system system /dev/fpsensor
+    #add for leadcore fingerprint end
+
+    #add by sunwave start
+    chown system system /dev/sunwave_fp
+    chmod 0660          /dev/sunwave_fp
+    #add by sunwave end
+
 on post-fs-data
     mkdir /persist/data/sfs 0700 system system
     mkdir /persist/data/tz 0700 system system
     mkdir /data/misc/hbtp 0750 system system
     mkdir /data/misc/dts 0770 media audio
+
+    #add for leadcore fingerprint start
+    mkdir /data/fpsensor
+    chown system system /data/fpsensor
+    chown system system /data/fpsensor/socket
+    chmod 0660  /data/fpsensor
+    chmod 0660  /data/fpsensor/socket
+    #add for leadcore fingerprint end
 
     # Create folder for mm-qcamera-daemon
     mkdir /data/vendor/camera 0777 camera camera
