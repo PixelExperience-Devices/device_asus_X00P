@@ -231,6 +231,9 @@ on post-fs-data
     mkdir /data/vendor/audio/acdbdata 0770 media audio
     mkdir /data/vendor/audio/acdbdata/delta 0770 media audio
 
+    # Create /data/vendor/time folder for time-services
+    mkdir /data/vendor/time 0700 system system
+
     setprop vold.post_fs_data_done 1
 
     # Create PERFD deamon related dirs
@@ -392,11 +395,6 @@ on property:persist.sys.fp.vendor=goodix
     setprop ro.boot.fpsensor gdx
     setprop ro.hardware.fingerprint goodix
     start fps_hal
-
-service time_daemon /vendor/bin/time_daemon
-    class main
-    user root
-    group root
 
 service vendor.power_off_alarm /vendor/bin/power_off_alarm
     class core
