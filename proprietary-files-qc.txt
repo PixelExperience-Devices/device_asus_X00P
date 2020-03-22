@@ -209,51 +209,31 @@ vendor/etc/init/dpmQmiMgr.rc|67569302d3a8828a9118c835e5b69c51b0c8ac68
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|ab5d46cbf14ce90ab44aaab4dc1520378c568033
 vendor/lib64/libdpmqmihal.so|d5b8330b56d7e0c036b00a817754748bf3137774
 
-# DRM - from X00P - QKQ1.191002.002 17.00.2003.23-20200401
-vendor/bin/qseecomd|03786ba1664aa7a6aca09b78139380c61d365e25
-vendor/lib/libbase64.so|9af7811c8fb02e6afc2ae456d5cb25598354751e
-vendor/lib/libcpion.so|aa44e7a3e14577c454e2681effd7ebb6a34cbff3
-vendor/lib/libcppf.so|ef567048d1cddd6d53e191feb6afddf1407a4e83
-vendor/lib/libdrmfs.so|53fb0233e88442ec4c909acab06eee82fe69effc
-vendor/lib/libdrmtime.so|581c95d4bf6796a58db46af3ad598961c5dc978c
-vendor/lib/libGPQTEEC_vendor.so|b56307c31ec1eee11bd47bc7957744ecc92c348e
-vendor/lib/libGPreqcancel.so|83aead93481d3136737c6d720be8ded0700d8b2a
-vendor/lib/libGPreqcancel_svc.so|c58a0f8913ab7c568bd35bb51536b80c3e2b82e9
-vendor/lib/libGPTEE_vendor.so|5e817e8ea584fbc02b0098e37f76ccb9d0d2d066
-vendor/lib/liboemcrypto.so|f58d692951512ac7d2ba800b3ee919c1581919ab
-vendor/lib/libqisl.so|3cd2941f5e4e3cf2a7a148d37fac97ed64d9cedb
-vendor/lib/libQSEEComAPI.so|c063dd889f0723db332bd27399099c30227740ef
-vendor/lib/librmp.so|1903abdfc0546422b162db5ed0b7bb1f4178a1ad
-vendor/lib/librpmb.so|8a5d981e98f5d8aa6a7f4c107ba3b490a3490ad4
-vendor/lib/libsdedrm.so|6ddb210bc3a48c91f785c1c6a2680c114470c6cd
-vendor/lib/libsecureui.so|90bc7f48ed3364bc5dbfeccf0b120dd0053ac505
-vendor/lib/libSecureUILib.so|a46924ecf29c52e50f41e5f8e8e2b3e779900553
-vendor/lib/libsecureui_svcsock.so|1f298d1b61155d37b8e9cf3e340005bbfa3190c5
-vendor/lib/libsi.so|87dbea536c2cc038cab379d416db3761eff603cf
-vendor/lib/libssd.so|590c41c229dd5c67b36b839b64e59ba1412816f5
-vendor/lib/libStDrvInt.so|e8d04ca058493fde5b77b467f7bc3b319af4b581
-vendor/lib/libtzdrmgenprov.so|59ffef0fdb777f8e71a4ffb6c87945d218eed56c
-vendor/lib64/libbase64.so|e01cad659078c394719a830d8de85f8cd8e76288
-vendor/lib64/libcpion.so|f2b4f77c835d1991ab8fe1af8c9423974a577302
-vendor/lib64/libdrmfs.so|a2cc69f55ecdfac9071c76f212f8e81b210e09cf
-vendor/lib64/libdrmtime.so|6a3b899ea9e03010768c70d54abc3b19d8c93998
-vendor/lib64/libGPQTEEC_vendor.so|14c1905604c22d66709b3c1a652322496510a729
-vendor/lib64/libGPreqcancel.so|a5f7f9679fdd081c9b9ea8f5c4a3714761ca997c
-vendor/lib64/libGPreqcancel_svc.so|fc3dbc1334e00eacf91ff8e14025507ad854dd96
-vendor/lib64/libGPTEE_vendor.so|0bc88c8e6bbe3b38e5c2229f5dfedf38c0e320d8
-vendor/lib64/liboemcrypto.so|0d7eeee765b089651c8104d51e60ee951760f1fa
-vendor/lib64/libqisl.so|491ac949ab488299c7a1ae4fe8257ec0a6f994b1
-vendor/lib64/libQSEEComAPI.so|8a79273f20de2bc9adba35d8b332a679c82d6ec6
-vendor/lib64/librmp.so|c219c04a8a63aa6085ef19271a64f35936c421de
-vendor/lib64/librpmb.so|1cbc7c3df7cae6e5c229c35d80113e72be145d9e
-vendor/lib64/libsdedrm.so|d9a37376cd363ee4a309122d156ef30ccf6ab1e4
-vendor/lib64/libsecureui.so|319abd8fb83fe719ea05a1cc4c05aff2e1eec1aa
-vendor/lib64/libSecureUILib.so|03c39f5d19d8c9ac62c9f7c49d1509538fb71bef
-vendor/lib64/libsecureui_svcsock.so|e81b59a6e1dac85b67f238ea98136cc121b39ac4
-vendor/lib64/libsi.so|6fa1e2be8475753ef12d6251db35f3b18aeaa990
-vendor/lib64/libssd.so|2f9371b25a9774a4f4b1d1879aa47aa8b6f02195
-vendor/lib64/libStDrvInt.so|ff7716dffc69be33921006ce214e182e4280b402
-vendor/lib64/libtzdrmgenprov.so|80ea9168b8ca078a52a7fcfc2023f0f4951d8bbb
+# DRM - from LA.UM.8.6.2.r1-06600-89xx.0
+vendor/bin/qseecomd|b6b1b78a4dc7085c2f49d40072094152fb2aecc5
+vendor/lib/libQSEEComAPI.so|bfa1d200090f27f6c67022dbdf3f6638143d0988
+vendor/lib64/libGPreqcancel.so|bfff7b7d51e917a16b9a15a27fb81e16d0359348
+vendor/lib64/libGPreqcancel_svc.so|b89242ce41cfd237f963e1e2c5a8326c3676c434
+vendor/lib64/libQSEEComAPI.so|5908d79ae12f2e8b00573b97ed22dea636e25681
+vendor/lib64/libSecureUILib.so|f81fb938598c3cd81dfe10a6c50a7babfd111935
+vendor/lib64/libStDrvInt.so|8c8776fc21988ceca25f6877a10862e12ba02681
+vendor/lib64/libdrmfs.so|213aed3ca4d08cd9b41113ab3b101110d043b3ff
+vendor/lib64/libdrmtime.so|fe3512ddedbe49c4b6c39d5dec19a398bddbc816
+vendor/lib64/libqisl.so|c4e7f283f3d416b784f2ec0f7000d607e044809b
+vendor/lib64/librpmb.so|e8c4f3aec58a248d70094194d2831c1f337bacd2
+vendor/lib64/libsecureui.so|fc29832bebb89e7edb8cb46d45ee5cb8fdcdf3d8
+vendor/lib64/libsecureui_svcsock.so|7441cfd83ed51ab13d564f81bc3744c488f08fe2
+vendor/lib64/libssd.so|bcb7c4213115f2377e0d30dd1a05cae5e88212e4
+
+# Gatekeeper - from LA.UM.8.6.2.r1-06600-89xx.0
+vendor/lib/hw/gatekeeper.msm8953.so:vendor/lib/hw/gatekeeper.msm8937.so|c153dbbd2c31ccee8633837961ce79909257af04
+vendor/lib64/hw/gatekeeper.msm8953.so:vendor/lib64/hw/gatekeeper.msm8937.so|2982026cfb7911d279bd4c9be3a02ad21cdb54ec
+
+# Gatekeeper - from X00P - QKQ1.191002.002-17.00.2003.23-20200401
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|bea6d682011b465a08b9085f7b5e69b965743eee
+vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|b6eb7ee197a436080dc18235d76efdad2e006fd6
 
 # GPS - from LA.UM.8.6.2.r1-06600-89xx.0
 vendor/bin/garden_app|816ac78085d9b72f03e29da4661ef12f73c9063f
@@ -366,6 +346,25 @@ vendor/lib64/libtinyxml2_1.so|5eaa71107c3ac981774b523a761246aa18a6a5cf
 # Ipacm - from X00P - QKQ1.191002.002 17.00.2003.23-20200401
 vendor/bin/ipacm-diag|1816ba54f702e93ded17411c44384a7fa023d007
 vendor/etc/init/ipacm-diag.rc|cacc1fce2e7123f6fdcaa408e66c3dfb9870f1bf
+
+# Keymaster - from X00P - QKQ1.191002.002-17.00.2003.23-20200401
+vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
+vendor/bin/hw/android.hardware.keymaster@3.0-service-qti|ac0aabf396888c9dc8b6dc23291e190daa943e24
+vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc|573b7392c8997008204081165cfe81a11080745d
+vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
+vendor/lib/libkeymasterdeviceutils.so
+vendor/lib/libkeymasterprovision.so
+vendor/lib/libkeymasterutils.so
+vendor/lib/libqtikeymaster4.so
+vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so|6041d4529dc20e9c7d422677445d04b7867cb2b1
+vendor/lib64/libkeymasterdeviceutils.so|784e8f3e6bb36214d171ba127454554049d140f5
+vendor/lib64/libkeymasterprovision.so|af61b88604f6be1a2cc630876683fa876fa49713
+vendor/lib64/libkeymasterutils.so|aae020ea0a13d05e52c8031daae360b84f5c1a43
+vendor/lib64/libqtikeymaster4.so
+
+# Keystore - from LA.UM.8.6.2.r1-06600-89xx.0
+vendor/lib/hw/keystore.msm8953.so:vendor/lib/hw/keystore.msm8937.so|9be4c88926ebed98b2b23725f8118ff9d0bbb2d6
+vendor/lib64/hw/keystore.msm8953.so:vendor/lib64/hw/keystore.msm8937.so|9f4d991dfa359299739bd443b63731528d9cb5d0
 
 # Latency - from X00P - QKQ1.191002.002 17.00.2003.23-20200401
 product/framework/vendor.qti.hardware.data.latency-V1.0-java.jar|c6c5d5bbf50b068df0184aef8551b95daa5f4791
@@ -818,11 +817,11 @@ vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 -vendor/lib/libtime_genoff.so|b158d87db74d2d7f239b79cfc60b568cd1d959d9
 -vendor/lib64/libtime_genoff.so|216cbb72e22a0ca76d766dc0b84055c5b31e0a4c
 
-# TUI - from X00P - QKQ1.191002.002 17.00.2003.23-20200401
-vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|05c0a47f24e38b14fc7c1ccfa64c585692277ee5
+# TUI - from LA.UM.8.6.2.r1-06600-89xx.0
+vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|d4d025e0a12af87f65104fe07801517938733603
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
-vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|54d52110bef564b6a0020752db35b4950d99cd84
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|dc232e873775cb175c2559d2efbdec4500aa1637
+vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|1a3bd8be98867f7af79edd76a25ec00865fd8915
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|1ac676dca4c81094b254b62f1b608e471b385847
 
 # Widevine - from LA.UM.8.6.2.r1-06600-89xx.0
 vendor/bin/hw/android.hardware.drm@1.2-service.widevine|b626d9bbf7043c66c8ef903c9d0e5183fc47388d
