@@ -497,11 +497,11 @@ vendor/lib64/libqti-iopd-client.so
 vendor/lib64/vendor.qti.hardware.iop@1.0.so
 vendor/lib64/vendor.qti.hardware.iop@2.0.so
 
-# Peripheral manager - from X00P - QKQ1.191002.002 17.00.2003.23-20200401
-vendor/bin/pm-proxy|68133bb8341042b803e0f16ec77ab64734acbdb8
-vendor/bin/pm-service|47743f969a47df00b5c77e6b4f57fed5764a82fc
-vendor/lib/libperipheral_client.so|25914d4c9ba1399b3c88644fca881bfc3f576c2d
-vendor/lib64/libperipheral_client.so|0de6324f29d88b21c15141f07588ded242fc9db5
+# Peripheral manager - from LA.UM.8.6.2.r1-06600-89xx.0
+vendor/bin/pm-proxy|5bc15d8ed4fffab8b8fa8c721ecc2ab955422d32
+vendor/bin/pm-service|76e55a1f4be7063bb3a22530d1f75f90ec263096
+vendor/lib/libperipheral_client.so|572a1a6b166c3debe8af73cb6c4c4fde3d0f17ce
+vendor/lib64/libperipheral_client.so|e0964ca47b6edff2f4c198f610bcb1511a04c03e
 
 # Postprocessing - from LA.UM.8.6.2.r1-06600-89xx.0
 etc/permissions/com.qti.snapdragon.sdk.display.xml|0bff16d681e75f203c1e11ff33afba82490e49b3
