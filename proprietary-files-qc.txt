@@ -255,29 +255,6 @@ vendor/lib64/libssd.so|2f9371b25a9774a4f4b1d1879aa47aa8b6f02195
 vendor/lib64/libStDrvInt.so|ff7716dffc69be33921006ce214e182e4280b402
 vendor/lib64/libtzdrmgenprov.so|80ea9168b8ca078a52a7fcfc2023f0f4951d8bbb
 
-# DRM-HDCP from X00P - QKQ1.191002.002 17.00.2003.23-20200401
-vendor/lib/libhdcpsrm.so
-vendor/lib/libmm-hdcpmgr.so
-vendor/lib64/libhdcpsrm.so
-vendor/lib64/libmm-hdcpmgr.so
-
-# DRM-Qteeconnector from X00P - QKQ1.191002.002 17.00.2003.23-20200401
-vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service
-vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc
-vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
-vendor/lib/libQTEEConnector_vendor.so
-vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so
-vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
-vendor/lib64/libQTEEConnector_vendor.so
-vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
-
-# DRM-Widevine from X00P - QKQ1.191002.002 17.00.2003.23-20200401
-vendor/bin/hw/android.hardware.drm@1.2-service.widevine
-vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc
-vendor/lib/mediadrm/libdrmclearkeyplugin.so
-vendor/lib64/libwvhidl.so
-vendor/lib64/mediadrm/libdrmclearkeyplugin.so
-
 # GPS - from LA.UM.8.6.2.r1-06600-89xx.0
 vendor/bin/garden_app|816ac78085d9b72f03e29da4661ef12f73c9063f
 vendor/bin/hw/android.hardware.gnss@2.0-service-qti|6b0264fb87b4caab908a706fc5d979df5173a311
@@ -846,6 +823,15 @@ vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|05c0a47f24e38b14fc7c1
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
 vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|54d52110bef564b6a0020752db35b4950d99cd84
 vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|dc232e873775cb175c2559d2efbdec4500aa1637
+
+# Widevine - from LA.UM.8.6.2.r1-06600-89xx.0
+vendor/bin/hw/android.hardware.drm@1.2-service.widevine|b626d9bbf7043c66c8ef903c9d0e5183fc47388d
+vendor/bin/hw/android.hardware.drm@1.2-service.clearkey|96007d6d553925bec04412293e3a5fcfb4928bb0
+vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|e3cb732c0bd519988100675edf385d947abf5f6c
+vendor/etc/init/android.hardware.drm@1.2-service.clearkey.rc|a3f4d3a6ddbdf66d56e5951454660b1a12fab89a
+vendor/lib/mediadrm/libdrmclearkeyplugin.so|0eed3e515e175010abbd567827a0b73b846d06b5
+vendor/lib64/mediadrm/libdrmclearkeyplugin.so|1b9850ee390f932c34f667883278ce3a7bc9b3fa
+vendor/lib64/libwvhidl.so|4af61fdcf1186700ea7ee23c607fb9ce5fd0f0e8
 
 # Wi-Fi Display - from LA.UM.8.6.2.r1-06600-89xx.0
 bin/wfdservice|934817e5689fe6f8b54032902de58c203b8ec2e7
