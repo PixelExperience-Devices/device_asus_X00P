@@ -878,11 +878,12 @@ vendor/lib64/hw/android.hardware.thermal@1.0-impl.so|84c5b49a453d9aadd8b2a373063
 -vendor/lib64/libthermalclient.so|fead3fb780b175ef478c7ab120639dea5b37a802
 vendor/lib64/libthermalioctl.so|dbb89b6990fed7373cbfcfeac9c90a5dd2bc2bdd
 
-# Time services - from X00P - QKQ1.191002.002 17.00.2003.23-20200401
+# Time services - from LA.UM.8.6.2.r1-06600-89xx.0
 -vendor/app/TimeService/TimeService.apk|4a37afd1395758d946580af184a738e3c657b1e2
-vendor/bin/time_daemon|7048574697718655cdcce0966d4c9543f9d0db90
-vendor/lib/libtime_genoff.so|08c0f7a8f247f98bc6944d02f7a588dc522476d4
-vendor/lib64/libtime_genoff.so|3c84c33b565008682681e3dbdcac7c6312e060ce
+vendor/bin/time_daemon|e23ee23d5bdc059273c58dac866cde7b090c764c
+vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
+-vendor/lib/libtime_genoff.so|b158d87db74d2d7f239b79cfc60b568cd1d959d9
+-vendor/lib64/libtime_genoff.so|216cbb72e22a0ca76d766dc0b84055c5b31e0a4c
 
 # TUI - from X00P - QKQ1.191002.002 17.00.2003.23-20200401
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|05c0a47f24e38b14fc7c1ccfa64c585692277ee5
