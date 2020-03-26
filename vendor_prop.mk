@@ -57,6 +57,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.camera.gyro.android=0 \
     persist.camera.HAL3.enabled=0 \
     persist.camera.is_type=1 \
+    persist.ts.rtmakeup=true \
     vidc.enc.dcvs.extra-buff-count=2
 
 # CNE
