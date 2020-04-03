@@ -137,9 +137,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.call_ring.multiple=false \
     persist.vendor.radio.apm_sim_not_pwdn=1 \
     persist.vendor.radio.custom_ecc=1 \
+    persist.vendor.radio.procedure_bytes=SKIP \
     persist.vendor.radio.rat_on=combine \
     persist.vendor.radio.sib16_support=1 \
     persist.vendor.data.mode=concurrent
+    service.qti.ims.enabled=1 \
+    ro.telephony.iwlan_operation_mode=legacy \
 
 # Time Services
 PRODUCT_PROPERTY_OVERRIDES += \
