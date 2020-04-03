@@ -320,11 +320,11 @@ PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.qcom.usb.rc \
     init.qcom.power.rc \
-    init.recovery.qcom.rc \
     init.target.rc \
     ueventd.qcom.rc
 
 PRODUCT_PACKAGES += \
+    init.class_main.sh \
     init.qcom.early_boot.sh \
     init.qcom.sh \
     init.qcom.usb.sh
