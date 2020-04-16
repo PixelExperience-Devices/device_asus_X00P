@@ -87,11 +87,13 @@ vendor/etc/acdbdata/QRD/sdm439-sku1-snd-card/SDM439_SKU1_workspaceFile.qwsp
 
 # Camera
 vendor/lib/hw/camera.msm8937.so
-vendor/lib/libbase64.so
 vendor/lib/libcamera_selfie.so
 vendor/lib/libcapiv2svacnn.so
 vendor/lib/libcapiv2vop.so
+vendor/lib/libchromaflash.so
+vendor/lib/libdualcameraddm.so
 vendor/lib/libflash_pmic.so
+vendor/lib/libgui_vendor.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
@@ -102,24 +104,28 @@ vendor/lib/libmmjpeg_interface.so
 vendor/lib/libmmqjpegdma.so
 vendor/lib/libmmqjpeg_codec.so
 vendor/lib/libmpbase.so
+vendor/lib/liboptizoom.so
 vendor/lib/libqomx_core.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc.so
 vendor/lib/libqomx_jpegenc_pipe.so
 vendor/lib/libremosaic_daemon.so
+vendor/lib/libseemore.so
 vendor/lib/libswvdec.so
-vendor/lib/libts_detected_face_hal.so
-vendor/lib/libts_face_beautify_hal.so
+vendor/lib/libubifocus.so
 vendor/lib/libvideoutils.so
-vendor/lib64/libbase64.so
+vendor/lib/vendor.qti.hardware.camera.device@1.0.so
 vendor/lib64/libcapiv2svacnn.so
 vendor/lib64/libcapiv2vop.so
+vendor/lib64/libdualcameraddm.so
+vendor/lib64/liboptizoom.so
+vendor/lib64/libseemore.so
 vendor/lib64/libswvdec.so
--vendor/lib64/libts_detected_face_hal.so
--vendor/lib64/libts_face_beautify_hal.so
+vendor/lib64/libubifocus.so
 vendor/lib64/libvideoutils.so
+vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
 
-# Camera actuators
+# Camera-actuators
 vendor/lib/libactuator_ad5816g.so
 vendor/lib/libactuator_ad5823.so
 vendor/lib/libactuator_ak7345.so
@@ -143,8 +149,6 @@ vendor/lib/libactuator_rohm_bu64243gwz.so
 
 # Camera-arcsoft
 vendor/lib/libarcsoft_beautyshot.so
-vendor/lib/libarcsoft_face_detection.so
-vendor/lib/libarcsoft_face_tracking.so
 vendor/lib/libarcsoft_hdr.so
 vendor/lib/libarcsoft_nighthawk.so
 vendor/lib/libarcsoft_night_shot.so
@@ -153,9 +157,10 @@ vendor/lib/libarcsoft_piczoom.so
 vendor/lib/libarcsoft_videostab.so
 
 # Camera-bin
+vendor/bin/mm-qcamera-app
 vendor/bin/mm-qcamera-daemon
 
-# Camera chromatix
+# Camera-chromatix
 vendor/lib/libchromatix_ar1337_1080p_preview_3a.so
 vendor/lib/libchromatix_ar1337_1080p_video_3a.so
 vendor/lib/libchromatix_ar1337_common.so
@@ -1496,6 +1501,7 @@ vendor/lib/libmmcamera_arc_beautyshot.so
 vendor/lib/libmmcamera_arc_nighthawk.so
 vendor/lib/libmmcamera_arc_videostab.so
 vendor/lib/libmmcamera_atmel_at24c32e_eeprom.so
+vendor/lib/libmmcamera_chromaflash_lib.so
 vendor/lib/libmmcamera_csidtg.so
 vendor/lib/libmmcamera_dbg.so
 vendor/lib/libmmcamera_dcrf_lib.so
@@ -1568,9 +1574,11 @@ vendor/lib/libmmcamera_isp_template.so
 vendor/lib/libmmcamera_isp_wb40.so
 vendor/lib/libmmcamera_le2464c_eeprom.so
 vendor/lib/libmmcamera_le2464c_master_eeprom.so
+vendor/lib/libmmcamera_llvd.so
 vendor/lib/libmmcamera_onsemi_cat24c16_eeprom.so
 vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so
 vendor/lib/libmmcamera_onsemi_cat24c32_imx362_eeprom.so
+vendor/lib/libmmcamera_optizoom_lib.so
 vendor/lib/libmmcamera_ov13850.so
 vendor/lib/libmmcamera_ov13850_q13v06k.so
 vendor/lib/libmmcamera_ov13855_gt24c64_eeprom.so
@@ -1617,6 +1625,7 @@ vendor/lib/libmmcamera_s5k5e8_holitech_eeprom.so
 vendor/lib/libmmcamera_sony_imx214_eeprom.so
 vendor/lib/libmmcamera_sony_imx298_eeprom.so
 vendor/lib/libmmcamera_sony_imx378_eeprom.so
+vendor/lib/libmmcamera_stillmore_lib.so
 vendor/lib/libmmcamera_sunny_8865_eeprom.so
 vendor/lib/libmmcamera_sunny_gt24c64a_imx362_eeprom.so
 vendor/lib/libmmcamera_sunny_gt24c64_imx298_eeprom.so
@@ -1627,10 +1636,12 @@ vendor/lib/libmmcamera_sw2d_lib.so
 vendor/lib/libmmcamera_thread_services.so
 vendor/lib/libmmcamera_tintless_algo.so
 vendor/lib/libmmcamera_tintless_bg_pca_algo.so
+vendor/lib/libmmcamera_trueportrait_lib.so
 vendor/lib/libmmcamera_truly_cma481_eeprom.so
 vendor/lib/libmmcamera_truly_cmb433_eeprom.so
 vendor/lib/libmmcamera_tuning.so
 vendor/lib/libmmcamera_tuning_lookup.so
+vendor/lib/libmmcamera_ubifocus_lib.so
 vendor/lib64/libmmcamera2_frame_algorithm.so
 vendor/lib64/libmmcamera2_is.so
 vendor/lib64/libmmcamera2_q3a_core.so
@@ -1642,15 +1653,15 @@ vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
-vendor/lib/android.hardware.biometrics.fingerprint@2.1.so
 vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
-vendor/lib64/android.hardware.biometrics.fingerprint@2.1.so
+vendor/lib/android.hardware.biometrics.fingerprint@2.1.so
 vendor/lib64/android.vendor.swfingerprint@1.0.so
 vendor/lib64/hw/fingerprint.default.so
 vendor/lib64/hw/fpsensor_fingerprint.default.so
 vendor/lib64/hw/microarray.fingerprint.default.so
 vendor/lib64/hw/swfingerprint.default.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
+vendor/lib64/android.hardware.biometrics.fingerprint@2.1.so
 vendor/lib64/libfprint-x64.so
 vendor/etc/sw_config.xml
 
@@ -1680,20 +1691,53 @@ vendor/etc/firmware/sw_fp_8937.b04
 vendor/etc/firmware/sw_fp_8937.b05
 vendor/etc/firmware/sw_fp_8937.b06
 vendor/etc/firmware/sw_fp_8937.mdt
+vendor/firmware/a225p5_pm4.fw
+vendor/firmware/a225_pfp.fw
+vendor/firmware/a225_pm4.fw
+vendor/firmware/a300_pfp.fw
+vendor/firmware/a300_pm4.fw
+vendor/firmware/a330_pfp.fw
+vendor/firmware/a330_pm4.fw
+vendor/firmware/a420_pfp.fw
+vendor/firmware/a420_pm4.fw
+vendor/firmware/a506_zap.b00
+vendor/firmware/a506_zap.b01
+vendor/firmware/a506_zap.b02
+vendor/firmware/a506_zap.elf
+vendor/firmware/a506_zap.mdt
+vendor/firmware/a530v1_pfp.fw
+vendor/firmware/a530v1_pm4.fw
+vendor/firmware/a530v2_seq.fw2
+vendor/firmware/a530v3_gpmu.fw2
+vendor/firmware/a530v3_seq.fw2
+vendor/firmware/a530_gpmu.fw2
+vendor/firmware/a530_pfp.fw
+vendor/firmware/a530_pm4.fw
+vendor/firmware/a540_gpmu.fw2
+vendor/firmware/a630_gmu.bin
+vendor/firmware/a630_sqe.fw
 vendor/firmware/leia_pfp_470.fw
 vendor/firmware/leia_pm4_470.fw
 
 # Keymaster
 vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
+vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
 vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc
+vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so
+vendor/lib/libkeymasterdeviceutils.so
+vendor/lib/libkeymasterprovision.so
+vendor/lib/libkeymasterutils.so
+vendor/lib/libqtikeymaster4.so
 vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so
 vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
-vendor/lib64/hw/keystore.msm8937.so
+vendor/lib64/libqtikeymaster4.so
 
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
+vendor/lib/hw/gatekeeper.msm8937.so
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
 vendor/lib64/hw/gatekeeper.msm8937.so
