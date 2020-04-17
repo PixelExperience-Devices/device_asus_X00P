@@ -1,3 +1,5 @@
+# Proprietary files - from UL-ASUS_X00P-WW-AOSP-17.00.2003.23-user build, unless pinned
+
 # ADSP - from Daisy QKQ1.191002.002 V11.0.5.0.QDLMIXM
 vendor/bin/adsprpcd|a5e878691577485c9f7ee33dfe02384a13f0a265
 vendor/lib/libadsprpc.so|e00e8dcb88e9b204fd90bb2c32afcc7fa28dbad1
