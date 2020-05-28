@@ -37,7 +37,7 @@ vendor/lib/libaudcal.so|0759db3faa286695ecfdb8fa152bd972e31a61c5
 vendor/lib/libaudioalsa.so|1c0615d720024b5bd7ac28bec13d37ab7102b57f
 vendor/lib/libaudioconfigstore.so|cabfeb61a0e3284b963d77700c6b21eba219b07d
 vendor/lib/libaudioparsers.so|c01522a3cc63527f5df153282005cfcd119a54b5
--vendor/lib/libaudio_log_utils.so|32ecd597d40217cc2a83a6c2092861aef0cb744d
+vendor/lib/libaudio_log_utils.so|32ecd597d40217cc2a83a6c2092861aef0cb744d
 vendor/lib/libdrc.so|55fc13d205ce3199de2cf1f9c1dab479909c15be
 vendor/lib/libqtigef.so|6a34eab5932716bca7aaba45563acb9b5925c3a7
 vendor/lib/libsurround_3mic_proc.so|d8c1d2cb7d598eee79ccfe5b7ec83a185c8fef6c
@@ -410,7 +410,7 @@ vendor/lib/libOmxEvrcDec.so|e13bce01bb1f01c05bb5abe59f286ee147bc60eb
 vendor/lib/libOmxQcelp13Dec.so|55add43f378cc1f4255d2116accef390dab980ac
 vendor/lib/libOmxVideoDSMode.so|56987c4b7197bf5db1efd619400ef9b7475d1daa
 vendor/lib/libOmxWmaDec.so|4285c349bf86b2efc50258658cbfb8ea51db50eb
--vendor/lib/libgpustats.so|b0cbb0338e92bd945677fea9da78b150b5529301
+vendor/lib/libgpustats.so|b0cbb0338e92bd945677fea9da78b150b5529301
 vendor/lib/libmm-color-convertor.so|a6c914904f8dde363e4e7986277d29a22fb0041a
 vendor/lib/libvqzip.so|fcc628722fba3689d6ccadb9d7ed2d0dc543051b
 vendor/lib64/libI420colorconvert.so|4bc770282c972ce45a5b4cc829ee30f428fbe9f5
