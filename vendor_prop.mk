@@ -156,7 +156,6 @@ ro.vendor.qti.va_odm.support=1
 
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
-    rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
     persist.radio.VT_ENABLE=1 \
     persist.radio.volte.dan_support=true \
     persist.sys.cust.lte_config=true \
@@ -175,6 +174,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.data.iwlan=1 \
     persist.data.iwlan.ipsec.ap=1 \
     ro.telephony.iwlan_operation_mode=legacy \
+    vendor.rild.libpath=/vendor/lib64/libril-qc-qmi-1.so
 
 # SurfaceFlinger
 PRODUCT_PROPERTY_OVERRIDES += \
