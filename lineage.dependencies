@@ -1,6 +1,6 @@
 [
  {
-   "repository": "android_kernel_xiaomi_msm8937",
-   "target_path": "kernel/xiaomi/msm8937"
+   "repository": "android_kernel_asus_msm8937",
+   "target_path": "kernel/asus/msm8937"
  }
 ]
