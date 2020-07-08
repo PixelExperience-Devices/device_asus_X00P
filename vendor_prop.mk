@@ -72,7 +72,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.camera.HAL3.enabled=1 \
     persist.camera.is_type=1 \
     persist.ts.rtmakeup=true \
-    vidc.enc.dcvs.extra-buff-count=2
+    vidc.enc.dcvs.extra-buff-count=2 \
+    persist.camera.CDS=off
 
 # CNE
 PRODUCT_PROPERTY_OVERRIDES += \
