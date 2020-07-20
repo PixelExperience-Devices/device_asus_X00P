@@ -326,6 +326,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     fstab.qcom \
     init.safailnet.rc \
+    init.msm.usb.configfs.rc \
     init.qcom.rc \
     init.qcom.usb.rc \
     init.qcom.power.rc \
