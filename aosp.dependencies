@@ -1,0 +1,13 @@
+[
+  {
+    "repository":  "kernel_asus_X00P",
+    "target_path": "kernel/asus/X00P",
+    "branch": "ten"
+  },
+  {
+    "repository":  "vendor_asus_x00p",
+    "target_path": "vendor/asus/X00P",
+    "branch": "ten",
+    "remote": "pixel-devices-blobs"
+  }
+]
