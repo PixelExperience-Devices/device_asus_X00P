@@ -1,36 +1,15 @@
-# Biometric
-/(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.xiaomi_msm8937 u:object_r:hal_fingerprint_msm8937_exec:s0
-
 # Block devices
 /dev/block/bootdevice/by-name/persist		u:object_r:persist_block_device:s0
 /dev/block/bootdevice/by-name/userdata          u:object_r:userdata_block_device:s0
-
-# Camera
-/data/vendor/qcam(/.*)?                         u:object_r:vendor_camera_data_file:s0
-/data/camera(/.*)?                    u:object_r:camera_socket:s0
 
 # DRM
 /vendor/bin/hw/android\.hardware\.drm@1\.1-service\.clearkey u:object_r:hal_drm_clearkey_exec:s0
 /vendor/bin/hw/android\.hardware\.drm@1\.1-service\.widevine u:object_r:hal_drm_widevine_exec:s0
 
-# Fpc Fingerprint
-/data/fpc(/.*)?					u:object_r:fpc_data_file:s0
-/dev/socket/fpce(/.*)?				u:object_r:fpce_socket:s0
-/sys/devices/soc/soc:fpc1020(/.*)?		u:object_r:fpc_sysfs:s0
-
-# For Goodix fingerprint
-/dev/gf66xx-spi                                 u:object_r:gx_fpd_device:s0
-/dev/ttyACM[0-9]*                               u:object_r:gx_fpd_device:s0
-/dev/goodix_fp*                                 u:object_r:gx_fpd_device:s0
-/(vendor|system/vendor)/bin/gx_fpd              u:object_r:gx_fpd_exec:s0
-
-# Goodix Fingerprint data
-/data/system/fingerprint(/.*)?                  u:object_r:gx_fpd_data_file:s0
-/persist/data/gxfp(/.*)?                        u:object_r:gx_fpd_data_file:s0
+# Hals
+/(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.asus_X00P                           u:object_r:hal_light_default_exec:s0
 
 # Input
-/sys/board_properties/virtualkeys.*             u:object_r:touch_sysfs:s0
-/vendor/usr/idc(/.*)?                           u:object_r:input_file:s0
 /vendor/usr/keylayout(/.*)?                     u:object_r:input_file:s0
 
 # Ir
@@ -46,8 +25,8 @@
 # RTC
 /sys/devices/soc/qpnp-rtc-7/rtc/rtc0/hctosys            u:object_r:sysfs_rtc:s0
 
-# Touch
-/sys/devices/soc/78b7000.i2c/i2c-3/3-[0-9a-f]+/disable_keys   u:object_r:touch_sysfs:s0
-
 # Light
 /sys/devices/soc/78b6000\.i2c/i2c-2/2-[0-9a-f]+/leds(/.*)?    u:object_r:sysfs_leds:s0
+
+# Legacy Rootdir
+/firmware(/.*)?            u:object_r:firmware_file:s0
