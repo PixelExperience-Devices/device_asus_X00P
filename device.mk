@@ -197,7 +197,10 @@ PRODUCT_PACKAGES += \
     android.hidl.manager@1.0_system
 
 PRODUCT_PACKAGES += \
-    libhwbinder
+    libhidltransport \
+    libhidltransport.vendor \
+    libhwbinder \
+    libhwbinder.vendor
 
 # HW Crypto
 PRODUCT_PACKAGES += \
