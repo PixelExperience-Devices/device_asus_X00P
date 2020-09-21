@@ -1,3 +1,6 @@
 allow lmkd hwservicemanager:binder transfer;
 allow lmkd same_process_hal_file:file read;
+allow lmkd same_process_hal_file:file open;
+allow lmkd same_process_hal_file:file getattr;
+allow lmkd same_process_hal_file:file execute;
 
