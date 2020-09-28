@@ -94,10 +94,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.input.video_enabled=false
 
-# Enforce privapp-permissions whitelist
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.control_privapp_permissions=enforce
-
 # Fm
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.fm.transmitter=false
