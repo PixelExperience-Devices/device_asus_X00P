@@ -190,6 +190,9 @@ vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so|8cd7aeb0f86d23def5c0269c
 vendor/lib64/vendor.qti.hardware.data.iwlan@1.0.so|e895462956bca23a950ac92e19d4b227df12ad00
 vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so|35ad6e08d00e8b1695964fa7d6ddbc521eda8628
 
+# CNE - from Daisy QKQ1.191002.002 V11.0.5.0.QDLMIXM
+-vendor/app/IWlanService/IWlanService.apk|12da3d82b6cc062d2af29a0b5f43fc8acf9adbb2
+
 # Charger - from X00P - QKQ1.191002.002 17.00.2003.23-20200401
 vendor/bin/hvdcp_opti|28ddc05c33e107dc74bad6a5b5d9eef7d9250416
 
