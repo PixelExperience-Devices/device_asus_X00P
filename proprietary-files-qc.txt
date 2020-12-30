@@ -605,13 +605,13 @@ vendor/lib/libqcmaputils.so|9f4526ece161f6cdf096484355251de858eecc47
 vendor/lib/libqcrilFramework.so|90889c8600188c798df9cb3c41530360fd9101fa
 vendor/lib/libqrtr.so|b25b69f720295f100419aef9c5041d72def06df3
 vendor/lib/libqsocket.so|638dedd9c0240d8096c6a914196ac6270138231c
-vendor/lib/libril-qc-hal-qmi.so|eb4ccdba06611dbf828f1cbb6794c4e9db7cd3bf
+vendor/lib/libril-qc-hal-qmi.so|e84b150c78adf8d425bc5260d7957824fe35395e
 vendor/lib/libril-qc-ltedirectdisc.so|07ea76381340b5ebdfa48c35edad79732369f625
 vendor/lib/libril-qc-qmi-1.so|c1179b5b626680f721067bd378c24b7a31c78abf
 vendor/lib/libril-qc-radioconfig.so|978c56845f9788488debfb5b71c5d2cd999f8e3f
 vendor/lib/libril-qcril-hook-oem.so|47365628cb265ad9bd1483a2398a8c4cb6f4624c
 vendor/lib/librilqmiservices.so|3da9def2250cc9ac32152ca6a9ceb0b5582ef586
-vendor/lib/libsettings.so|5291e3411130e55a03202fb805c68e2b00f0a0ab
+vendor/lib/libsettings.so|e537e6ae2152e665bc1cc77719f4bb307b9f2efb
 vendor/lib/libsystem_health_mon.so|2f536e51650cfe968afed6fdfc4b5a6671661e85
 vendor/lib/qcrild_librilutils.so|37f1d9b1b05d1de6ac6cf9eaf926db00e36cbd08
 vendor/lib/qtibus.so|0e3bed16fd9b8a7dc3614d16945fb13814f9c0b1
@@ -648,13 +648,13 @@ vendor/lib64/libqcmaputils.so|962ad5354ef3e15d65ab0e8071b203803bb7e01d
 vendor/lib64/libqcrilFramework.so|92252dace4eed624091eb6e1f8822f980a33aceb
 vendor/lib64/libqrtr.so|5f157d4eb8391ad3d612100e45bcf4d393ceaf93
 vendor/lib64/libqsocket.so|6264041e0e897f78dc9b6a4be6424cbd927669d0
-vendor/lib64/libril-qc-hal-qmi.so|e02f7be2ebfabdb7a415a0fa34eb15dbfd44f743
+vendor/lib64/libril-qc-hal-qmi.so|eda0a30dc5c4eaf1985b7f72f3948ed9c4cb201b
 vendor/lib64/libril-qc-ltedirectdisc.so|d1362dd810003ceb9900f2469f27daad6961fdfc
 vendor/lib64/libril-qc-qmi-1.so|f4d6cf42e7fd3a78382ae5049943f49fec815120
 vendor/lib64/libril-qc-radioconfig.so|9edea733d2019ef3f189920224c81a7c9a912013
 vendor/lib64/libril-qcril-hook-oem.so|933c272fb948dcb4ddea49793c9a1d9266042055
 vendor/lib64/librilqmiservices.so|262d92baf712183aec6f9eaef08637d775ef2275
-vendor/lib64/libsettings.so|c47d547198b5e471e68a8fa485713f2f2343dcf4
+vendor/lib64/libsettings.so|bb5afb0d748c794a0096626dc84e09a3ef8e143b
 vendor/lib64/libsystem_health_mon.so|3f9ce9ad37d8bf8b23f196af6b6eb9844d6db2a2
 vendor/lib64/qcrild_librilutils.so|06fb6603d441268b3fe3d08d32342c7f2d25c1ba
 vendor/lib64/qtibus.so|16490605d253320a9d632fad3093dae663383208
@@ -845,7 +845,7 @@ vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|1ac676dca4c81094b254b62f1b608e4
 # Widevine - from LA.UM.8.6.2.r1-06600-89xx.0
 vendor/bin/hw/android.hardware.drm@1.2-service.widevine|b626d9bbf7043c66c8ef903c9d0e5183fc47388d
 vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc|e3cb732c0bd519988100675edf385d947abf5f6c
-vendor/lib64/libwvhidl.so|7f187454dde3e508ccd116069bfb92ac2509844a
+vendor/lib64/libwvhidl.so|4af61fdcf1186700ea7ee23c607fb9ce5fd0f0e8
 
 # Wi-Fi Display - from LA.UM.8.6.2.r1-06600-89xx.0
 bin/wfdservice|934817e5689fe6f8b54032902de58c203b8ec2e7
