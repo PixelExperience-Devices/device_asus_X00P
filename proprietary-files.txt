@@ -1761,6 +1761,17 @@ vendor/lib64/libmmcamera_dbg.so
 vendor/lib64/libmmcamera_tintless_algo.so
 vendor/lib64/libmmcamera_tintless_bg_pca_algo.so
 
+# CDSP - from X00P - QKQ1.191002.002 17.00.2003.23-20200401
+vendor/bin/cdsprpcd|a1b4c35ffdef184cc1334f3d1cf4fa56546d3621
+vendor/lib/libcdsprpc.so|274f597c2ba704304bae0e11299602884166d64f
+vendor/lib/libcdsp_default_listener.so|b5651d73060dcca435c3d7024d8859c3906b866e
+vendor/lib/libfastrpc_utf_stub.so|c9b36aa0e4791536f1ae4e4d90820c77fc06a5bd
+vendor/lib/libsysmon_cdsp_skel.so|d85f4593a2d6dd4d0a4812799166a3960c4f571b
+vendor/lib64/libcdsprpc.so|24cecba3f2e518621dd13a9209e4ff70e77a5722
+vendor/lib64/libcdsp_default_listener.so|f190bb35ca2a07c28735e413e800bc2b7bf924a9
+vendor/lib64/libfastrpc_utf_stub.so|d19ff5b0ef7506a5d28f5825547dcf235c2f8f96
+vendor/lib64/libsysmon_cdsp_skel.so|a79e0c344ef325cecd28e076b08a17573f255d45
+
 # CNE - from X00P - QKQ1.191002.002 17.00.2003.23-20200401
 product/etc/permissions/vendor.qti.hardware.data.connection-V1.0-java.xml|75e8a824d368cd4172985c884796381327d950da
 product/etc/permissions/vendor.qti.hardware.data.connection-V1.1-java.xml|620c9fa0047bb681e918af2d1e7a98c648f45fb7
