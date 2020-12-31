@@ -7,7 +7,7 @@
   {
     "repository":  "vendor_asus_x00p",
     "target_path": "vendor/asus/X00P",
-    "branch": "eleven",
+    "branch": "eleven-wip",
     "remote": "pixel-devices-blobs"
   }
 ]
