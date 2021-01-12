@@ -43,6 +43,14 @@ persist.vendor.camera.HAL3.enabled=1
 debug.stagefright.omx_default_rank.sw-audio=1
 debug.stagefright.omx_default_rank=0
 
+# Dalvik
+dalvik.vm.heapstartsize=8m
+dalvik.vm.heapsize=513m
+dalvik.vm.heapgrowthlimit=192m
+dalvik.vm.heapminfree=512k
+dalvik.vm.heapmaxfree=8m
+dalvik.vm.heaptargetutilization=0.75
+
 # DRM
 drm.service.enabled=true
 
