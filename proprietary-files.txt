@@ -1666,6 +1666,14 @@ vendor/lib64/libfprint-x64.so
 vendor/etc/sw_config.xml
 
 # Firmware
+vendor/etc/firmware/fngap64_8917.b00
+vendor/etc/firmware/fngap64_8917.b01
+vendor/etc/firmware/fngap64_8917.b02
+vendor/etc/firmware/fngap64_8917.b03
+vendor/etc/firmware/fngap64_8917.b04
+vendor/etc/firmware/fngap64_8917.b05
+vendor/etc/firmware/fngap64_8917.b06
+vendor/etc/firmware/fngap64_8917.mdt
 vendor/etc/firmware/fngap64_8937.b00
 vendor/etc/firmware/fngap64_8937.b01
 vendor/etc/firmware/fngap64_8937.b02
@@ -1674,6 +1682,15 @@ vendor/etc/firmware/fngap64_8937.b04
 vendor/etc/firmware/fngap64_8937.b05
 vendor/etc/firmware/fngap64_8937.b06
 vendor/etc/firmware/fngap64_8937.mdt
+vendor/etc/firmware/mafp_8917.b00
+vendor/etc/firmware/mafp_8917.b01
+vendor/etc/firmware/mafp_8917.b02
+vendor/etc/firmware/mafp_8917.b03
+vendor/etc/firmware/mafp_8917.b04
+vendor/etc/firmware/mafp_8917.b05
+vendor/etc/firmware/mafp_8917.b06
+vendor/etc/firmware/mafp_8917.mbn
+vendor/etc/firmware/mafp_8917.mdt
 vendor/etc/firmware/mafp_8937.b00
 vendor/etc/firmware/mafp_8937.b01
 vendor/etc/firmware/mafp_8937.b02
@@ -1683,6 +1700,14 @@ vendor/etc/firmware/mafp_8937.b05
 vendor/etc/firmware/mafp_8937.b06
 vendor/etc/firmware/mafp_8937.mbn
 vendor/etc/firmware/mafp_8937.mdt
+vendor/etc/firmware/sw_fp_8917.b00
+vendor/etc/firmware/sw_fp_8917.b01
+vendor/etc/firmware/sw_fp_8917.b02
+vendor/etc/firmware/sw_fp_8917.b03
+vendor/etc/firmware/sw_fp_8917.b04
+vendor/etc/firmware/sw_fp_8917.b05
+vendor/etc/firmware/sw_fp_8917.b06
+vendor/etc/firmware/sw_fp_8917.mdt
 vendor/etc/firmware/sw_fp_8937.b00
 vendor/etc/firmware/sw_fp_8937.b01
 vendor/etc/firmware/sw_fp_8937.b02
