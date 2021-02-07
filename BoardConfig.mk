@@ -220,4 +220,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 TARGET_HAS_BROKEN_WLAN_SET_INTERFACE := true
 
 # Inherit the common proprietary files
--include vendor/asus/X00P/BoardConfigVendor.mk
+include vendor/asus/X00P/BoardConfigVendor.mk
