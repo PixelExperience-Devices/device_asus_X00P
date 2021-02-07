@@ -99,10 +99,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.input.video_enabled=false
 
-# Fm
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.fm.transmitter=false
-
 # GPS
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.gps.agps_provider=1
